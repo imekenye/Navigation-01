@@ -1,0 +1,19 @@
+@media screem and (orientation:portrait){
+    .container{
+        padding: 6.4rem 1.6rem; 
+    }
+}
+
+@media screen and (orientation:portrait){
+    nav.active + .container{
+        transform: translateX(55%) scale(0.8);
+        box-shadow: 0 0 30px 5px rgba(38,38,38,0.3);
+    }
+}
+
+@media screen and (orientation:landscape){
+    nav.active + .container{
+        transform: translateX(35%) scale(0.8);
+        box-shadow: 0 0 30px 5px rgba(38,38,38,0.3);
+    }
+}
